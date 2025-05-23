@@ -71,6 +71,22 @@ pip install -r requirements.txt
 5. Import the file into the game via worldedit or other tools. (Google is your best friend~~)
 -->
 
+### Fabric Mod Builder
+
+`fabric_mod_builder.py` scaffolds a Fabric mod project. Specify the project
+directory and optional Minecraft version. If Gradle is installed, the script
+sets up the wrapper, downloads Fabric Loader, Fabric API and Yarn mappings and
+can launch a development client.
+
+Usage:
+
+```bash
+python fabric_mod_builder.py MyMod --version 1.21.5 --run-client
+```
+
+The generated folder contains `src/main/java` and `src/main/resources`.
+
+
 Moved to [Wiki](https://github.com/CyniaAI/BuilderGPT/wiki).
 
 <!--
@@ -89,6 +105,8 @@ Moved to [Wiki](https://github.com/CyniaAI/BuilderGPT/wiki).
 5. Import the file into the game via worldedit or other tools. (Google is your best friend~~)
 
 -->
+
+
 
 ## Contributing
 If you like the project, you can give the project a star, or [submit an issue](https://github.com/CyniaAI/BuilderGPT/issues) or [pull request](https://github.com/CyniaAI/BuilderGPT/pulls) to help make it better.
